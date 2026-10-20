@@ -1,0 +1,21 @@
+
+/* Reset básico y variables de color */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+:root {
+  --color-primary: #2ecc71;
+  --color-dark: #27ae60;
+  --color-bg: #f5f5dc;
+  --color-text: #333333;
+}
+
+body {
+  background-color: #ffffff;
+  color: var(--color-text);
+  line-height: 1.6;
+}
