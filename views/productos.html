@@ -1,0 +1,118 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EcoMarket - Productos</title>
+  <link rel="stylesheet" href="../Css/main.css">
+  <link rel="stylesheet" href="../Css/layout.css">
+  <link rel="stylesheet" href="../Css/components.css">
+  <link rel="stylesheet" href="../Css/animations.css">
+</head>
+<body>
+
+  <!-- Encabezado -->
+  <header class="header">
+    <div class="logo">EcoMarket</div>
+    <nav class="nav">
+      <a href="../index.html">Inicio</a>
+      <a href="productos.html" class="active">Productos</a>
+      <a href="sobre-nosotros.html">Nosotros</a>
+      <a href="contacto.html">Contacto</a>
+    </nav>
+    <div class="header-actions">
+      <a href="productos.html">🔍 Buscar</a>
+      <a href="contacto.html">🛒 Carrito</a>
+    </div>
+  </header>
+
+  <!-- Contenido Principal -->
+  <main class="container">
+    <h1 class="section-title">Catálogo de Productos</h1>
+
+    <!-- Barra de Filtros vinculada con IDs -->
+    <section class="filters-bar">
+      <a href="#todos" class="filter-btn active">Todos</a>
+      <a href="#hogar" class="filter-btn">Hogar</a>
+      <a href="#cuidado" class="filter-btn">Cuidado Personal</a>
+      <a href="#reutilizables" class="filter-btn">Reutilizables</a>
+    </section>
+
+    <!-- Grid de Productos (6 Productos) -->
+    <div class="product-grid" id="todos">
+
+      <!-- Producto 1: Hogar -->
+      <article class="card" id="hogar">
+        <img src="../Img/products/cepillo.jpg" alt="Cepillo de Bambú" class="card-img">
+        <div class="card-body">
+          <h3>Cepillo de Bambú</h3>
+          <p class="price">$12.000</p>
+          <button class="btn">Agregar al Carrito</button>
+        </div>
+      </article>
+
+      <!-- Producto 2: Reutilizable -->
+      <article class="card" id="reutilizables">
+        <img src="../Img/products/bolsa.jpg" alt="Bolsa de Tela" class="card-img">
+        <div class="card-body">
+          <h3>Bolsa de Tela Reutilizable</h3>
+          <p class="price">$15.000</p>
+          <button class="btn">Agregar al Carrito</button>
+        </div>
+      </article>
+
+      <!-- Producto 3: Cuidado Personal -->
+      <article class="card" id="cuidado">
+        <img src="../Img/products/jabon.jpg" alt="Jabon Orgánico Artesanal" class="card-img">
+        <div class="card-body">
+          <h3>Jabon Orgánico Artesanal</h3>
+          <p class="price">$8.000</p>
+          <button class="btn">Agregar al Carrito</button>
+        </div>
+      </article>
+
+      <!-- Producto 4: Hogar -->
+      <article class="card" id="hogar">
+        <img src="../Img/products/pitillos.jpg" alt="Pitillos de Acero Inoxidable" class="card-img">
+        <div class="card-body">
+          <h3>Pitillos de Acero Inoxidable</h3>
+          <p class="price">$10.000</p>
+          <button class="btn">Agregar al Carrito</button>
+        </div>
+      </article>
+
+      <!-- Producto 5: Cuidado Personal -->
+      <article class="card" id="cuidado">
+        <img src="../Img/products/champu.jpg" alt="Champú Sólido Natural" class="card-img">
+        <div class="card-body">
+          <h3>Champú Sólido Natural</h3>
+          <p class="price">$18.000</p>
+          <button class="btn">Agregar al Carrito</button>
+        </div>
+      </article>
+
+      <!-- Producto 6: Reutilizable -->
+      <article class="card" id="reutilizables">
+        <img src="../Img/products/termo.jpg" alt="Termo de Acero Inoxidable" class="card-img">
+        <div class="card-body">
+          <h3>Termo de Acero Inoxidable</h3>
+          <p class="price">$25.000</p>
+          <button class="btn">Agregar al Carrito</button>
+        </div>
+      </article>
+
+    </div>
+  </main>
+
+  <!-- Pie de Página -->
+  <footer class="footer">
+    <p>&copy; 2026 EcoMarket. Todos los derechos reservados.</p>
+    <div class="footer-links">
+      <a href="#">Términos y Condiciones</a>
+      <a href="#">Privacidad</a>
+    </div>
+  </footer>
+
+</body>
+</html>
